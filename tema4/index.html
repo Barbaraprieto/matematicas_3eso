@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tema 6 — Geometría Analítica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f7f7f7;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #222;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #333;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .example {
+            background: #eef6ff;
+            padding: 10px;
+            border-left: 4px solid #4a90e2;
+            margin: 10px 0;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #e3e3e3;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        a:hover {
+            background: #d1d1d1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tema 6 — Geometría Analítica</h1>
+
+    <div class="section">
+        <h2>1. Sistema de coordenadas</h2>
+        <p>El plano cartesiano se divide en cuatro cuadrantes y cada punto se representa como <strong>(x, y)</strong>.</p>
+
+        <div class="example">
+            <p>Ejemplo: (3, -2) significa 3 unidades a la derecha y 2 hacia abajo.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>2. Distancia entre dos puntos</h2>
+        <p>La distancia entre dos puntos A(x₁, y₁) y B(x₂, y₂) se calcula con:</p>
+
+        <div class="example">
+            <p><strong>d = √[(x₂ - x₁)² + (y₂ - y₁)²]</strong></p>
+        </div>
+
+        <div class="example">
+            <p>A(1,2), B(4,6) → d = √[(4-1)² + (6-2)²] = √(9 + 16) = 5</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3. Punto medio</h2>
+        <p>El punto medio del segmento que une A y B es:</p>
+
+        <div class="example">
+            <p><strong>M = ( (x₁ + x₂)/2 , (y₁ + y₂)/2 )</strong></p>
+        </div>
+
+        <div class="example">
+            <p>A(2,4), B(6,10) → M = (4, 7)</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>4. Pendiente de una recta</h2>
+        <p>La pendiente indica la inclinación de la recta:</p>
+
+        <div class="example">
+            <p><strong>m = (y₂ - y₁) / (x₂ - x₁)</strong></p>
+        </div>
+
+        <div class="example">
+            <p>Puntos (1,2) y (3,6) → m = (6-2)/(3-1) = 4/2 = 2</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>5. Ecuación de la recta</h2>
+
+        <h3>Forma explícita</h3>
+        <div class="example">
+            <p><strong>y = mx + n</strong></p>
+        </div>
+
+        <h3>Forma general</h3>
+        <div class="example">
+            <p><strong>ax + by + c = 0</strong></p>
+        </div>
+
+        <h3>Ejemplo</h3>
+        <div class="example">
+            <p>Pendiente 3 y punto (0, -2) → y = 3x - 2</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>6. Posición relativa de rectas</h2>
+
+        <ul>
+            <li><strong>Paralelas</strong>: misma pendiente.</li>
+            <li><strong>Perpendiculares</strong>: producto de pendientes = -1.</li>
+            <li><strong>Coincidentes</strong>: misma ecuación.</li>
+        </ul>
+
+        <div class="example">
+            <p>y = 2x + 1 y y = 2x - 5 → paralelas.</p>
+        </div>
+    </div>
+
+    <a href="../index.html">Volver al índice</a>
+
+</body>
+</html>
